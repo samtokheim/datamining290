@@ -1,0 +1,9 @@
+What are the types of data available to you?
+
+For data sets: how many records are in the data set?
+
+For API: what are the limits on fetching data?
+
+Provide an "interesting" record, explain its properties and why it is interesting
+
+What are 3 questions you could answer using your data?
