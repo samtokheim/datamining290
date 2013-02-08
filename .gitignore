@@ -4,3 +4,4 @@ venv/
 *.pyc
 #*
 /server/shorten.db
+actors.list
