@@ -1,0 +1,8 @@
+Total: 146858886.14
+Minimum: -30000.0 
+Maximum: 30000.0
+Mean: 168.685431492
+Median: 50.0
+Standard Deviation: 438.307269815
+Candidates: {'P20002556': 'Pawlenty, Timothy CHANDRASOMA, PARAKRAMA DR.', 'P20003109': 'McCotter, Thaddeus G DUDA, MATTHEW', 'P20002978': 'Bachmann, Michele HILFER, RAYMOND', 'P20002671': 'Johnson, Gary Earl AYERS, ROBERT M.', 'P60003654': 'Gingrich, Newt OWENS, LUCILLE R. MS.', 'P20002721': 'Santorum, Rick WUSINICH, MARIA', 'P20003067': 'Huntsman, Jon HAYES, LYNNE K. MRS.', 'P80003353': 'Romney, Mitt SIMON, TONIA A. MS.', 'P00003608': 'Cain, Herman KARGES, WILLIAM', 'P20003281': 'Perry, Rick KAY, STEEVE', 'P80000748': 'Paul, Ron PAINTER, JOSEPH H MR.', 'P20002523': "Roemer, Charles E. 'Buddy' III DENTON, JAMES", 'P80003338': 'Obama, Barack RAMOS, PAUL', 'P20003984': 'Stein, Jill WADDELL, W D'}
+Min-max normalized values: [2500, 50, 250, 35, 8, 100, 19]

@@ -1,0 +1,8 @@
+Total: 146858886.14
+Minimum: -30000.0 
+Maximum: 30000.0
+Mean: 168.685431492
+Median: 50.0
+Standard Deviation: 438.307269815
+Candidates: Barack Obama, Charles Roemer, Gary Johnson, Herman Cain, Jill Stein, Jon Huntsman, Michele Bachmann, Mitt Romney, Newt Gingrich, Rick Perry, Rick Santorum, Ron Paul, Thaddeus McCotter, Timothy Pawlenty
+Min-max normalized values: [0.5416666666666666, 0.5008333333333334, 0.5041666666666667, 0.5005833333333334, 0.5001333333333333, 0.5016666666666667, 0.5003166666666666]
