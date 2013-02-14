@@ -6,3 +6,5 @@ venv/
 *.json
 #*
 /server/shorten.db
+code/P00000001-CA.csv
+actors.list
