@@ -4,7 +4,6 @@ available from http://www.fec.gov/disclosurep/PDownload.do"""
 
 import fileinput
 import csv
-import math
 
 total = 0
 values = []
@@ -47,9 +46,11 @@ def sd(values,mean):
 		sumOfDev += v
 
 	#Divide the sum of squared deviations by one less than the total count of values. Then find the square root.
-	stdDev = (sumOfDev/size)**0.5
+	stdDev = (sumOfDev/(size-1))**0.5
 	
 	return stdDev
+
+stdDev = sd(values,mean)
 
 def printCandidates(candidates):
 	
@@ -76,7 +77,7 @@ print "Maximum: %s" % maxVal
 print "Mean: %s" % str(mean)
 print "Median: %s" % str(median) 
 # square root can be calculated with N**0.5
-print "Standard Deviation: %s" % str(sd(values,mean))
+print "Standard Deviation: %s" % str(stdDev)
 
 ##### Comma separated list of unique candidate names
 print "Candidates: %s" % printCandidates(candidates)
@@ -89,9 +90,13 @@ def minmax_normalize(value):
     norm = ((value-minVal)/(maxVal-minVal))*(1-0)+0
 
     ###/
-    
     return norm
+
+def zscore(value):
+    #Calculates the z-score for a given value, mean and standard deviation
+    zScore = (value-mean)/stdDev
+    return zScore
 
 ##### Normalize some sample values
 print "Min-max normalized values: %r" % map(minmax_normalize, [2500, 50, 250, 35, 8, 100, 19])
-
+print "Z-Scores: %r" % map(zscore, [2500, 50, 250, 35, 8, 100, 19])
