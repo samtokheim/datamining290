@@ -6,3 +6,5 @@ venv/
 *.json
 #*
 /server/shorten.db
+yelp_academic_dataset.json
+business_c.json
