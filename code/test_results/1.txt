@@ -1,0 +1,2 @@
+Gini Index: 0
+Gini Index after split: 0
