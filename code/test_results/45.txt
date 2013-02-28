@@ -1,0 +1,17 @@
+Huntsman, Jon 0.999999685809
+Cain, Herman 0.999996639372
+Gingrich, Newt 0.9999590384
+Obama, Barack 0.307863642164
+Johnson, Gary Earl 0.999999709798
+Stein, Jill 0.999999954356
+Romney, Mitt 0.984169587318
+Bachmann, Michele 0.99999532702
+McCotter, Thaddeus G 0.999999999979
+Santorum, Rick 0.999966897808
+Roemer, Charles E. 'Buddy' III 0.999999395311
+Perry, Rick 0.999997858621
+Paul, Ron 0.999527023636
+Pawlenty, Timothy 0.999999393523
+0.999741212926
+Gini Index: 0.291474153115
+Gini Index after split: 0

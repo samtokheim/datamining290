@@ -1,0 +1,17 @@
+488 Huntsman, Jon
+1596 Cain, Herman
+5572 Gingrich, Newt
+724300 Obama, Barack
+469 Johnson, Gary Earl
+186 Stein, Jill
+109539 Romney, Mitt
+1882 Bachmann, Michele
+4 McCotter, Thaddeus G
+5009 Santorum, Rick
+677 Roemer, Charles E. 'Buddy' III
+1274 Perry, Rick
+18934 Paul, Ron
+678 Pawlenty, Timothy
+870608
+Gini Index: 1
+Gini Index after split: 0
