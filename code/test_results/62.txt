@@ -1,0 +1,3 @@
+defaultdict(<type 'int'>, {'Huntsman, Jon': 488, 'Cain, Herman': 1596, 'Gingrich, Newt': 5572, 'Obama, Barack': 724300, 'Johnson, Gary Earl': 469, 'Stein, Jill': 186, 'Romney, Mitt': 109539, 'Bachmann, Michele': 1882, 'McCotter, Thaddeus G': 4, 'Santorum, Rick': 5009, "Roemer, Charles E. 'Buddy' III": 677, 'Perry, Rick': 1274, 'Paul, Ron': 18934, 'Pawlenty, Timothy': 678})
+Gini Index: 0.291474153115
+Gini Index after split: 0.422067226366
