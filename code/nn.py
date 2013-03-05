@@ -14,7 +14,7 @@ def nw(w,learn_rate,err,n):
 	return(nw)
 
 #This is the constant for learning rate
-learn_rate = 0.3
+learn_rate = 10
 
 #Initial input values
 n1 = 1	
