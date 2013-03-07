@@ -48,8 +48,8 @@ err_4 = hiddenError(n4,err_6,w_46)
 err_3 = hiddenError(n3,err_6,w_36)
 
 #Errors for input layer
-err_2 = hiddenError(n2,err_5,w_25)
-err_1 = hiddenError(n1,err_3,w_13)
+err_2 = 0.0 #hiddenError(n2,err_5,w_25)
+err_1 = 0.0 #hiddenError(n1,err_3,w_13)
 
 #New weights
 nw_13 = nw(w_13,learn_rate,err_3,n1)
