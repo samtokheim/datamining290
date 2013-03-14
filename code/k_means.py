@@ -32,7 +32,7 @@ def distance(a, b):
     # TODO return correct expression
 
     #1-dimensional Euclidean distance between points a,b
-    distance = (a-b)**2
+    distance = math.sqrt((a-b)**2)
     
     return distance
     #return 0
