@@ -8,6 +8,8 @@ import math
 
 dataset = [-13.65089255716321, -0.5409562932238607, -88.4726466247223, 39.30158828358612, 4.066458182574449, 64.64143300482378, 38.68269424751338, 33.42013676314311, 31.18603331719732, -0.2027616409406292, 45.13590038987272, 30.791899783552395, 61.1727490302448, 18.167220741624856, 88.88077709786394, -1.3808002119514704, 50.14991362212521, 55.92029956281276, -6.759813255299466, 34.28290084421072]
 k = 2 # number of clusters
+min_dataset = min(dataset)
+max_dataset = max(dataset)
 
 ###
 # Helper functions
@@ -31,9 +33,13 @@ def distance(a, b):
     ###
     # TODO return correct expression
 
-    #1-dimensional Euclidean distance between points a,b
-    distance = math.sqrt((a-b)**2)
+    #Normalize values a and b to a range between 1 and 0.
+    norm_a = ((a-min_dataset)/(max_dataset-min_dataset))*(1-0)+0
+    norm_b = ((b-min_dataset)/(max_dataset-min_dataset))*(1-0)+0
     
+    #Calculate the Euclidean distance between normalized values a and b
+    distance = math.sqrt(((norm_a-norm_b)**2))
+   
     return distance
     #return 0
     ##/
@@ -43,9 +49,9 @@ def centroid(xs):
     ###
     # TODO calculate and return centroid
     
-    #calculate the centroid
+    #calculate the centroid using the mean of a given list of numbers
     centroid = sum(xs)/len(xs)
-    
+  
     return centroid
     ##/
 
@@ -76,10 +82,9 @@ def iterate_centroids(xs, centroids):
         new_centroids = map(centroid, new_clusters)
 
         observed_error = max(abs(new - old) for new, old in zip(new_centroids, centroids))
-        centroids = new_centroids
+	centroids = new_centroids
 
     return (centroids, new_clusters)
-
 
 ###
 # Main part of program:
