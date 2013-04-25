@@ -1,0 +1,15 @@
+HW-ELASTICITY
+Created by: Sam Tokheim
+Date:25April2013
+
+Assumptions: 1-5=weekdays and 6-7=weekends
+Please see hw-elasticity-analysis-vFinal.xlsx for supporting analysis
+
+1. What is the price elasticity of weekday prices? -1.763
+2. What is the price elasticity of weekend prices? -1.436913274
+3. If we are currently forecast to be at 1000 rooms at $200 rate with 100 available capacity, what price should we set to optimize max revenue for both weekday and weekend? 
+
+Weekday = $148.70
+Weekend = $163.40
+
+
