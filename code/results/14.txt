@@ -1,0 +1,1 @@
+"MAX"	"<generator object <genexpr> at 0x23a90a0>"

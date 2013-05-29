@@ -6,5 +6,9 @@ venv/
 *.json
 #*
 /server/shorten.db
+/results/*
 /code/P00000001-CA.csv
 actors.list
+yelp_academic_dataset.json
+business_c.json
+
