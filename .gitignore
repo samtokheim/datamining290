@@ -6,3 +6,4 @@ venv/
 *.json
 #*
 /server/shorten.db
+actors.list

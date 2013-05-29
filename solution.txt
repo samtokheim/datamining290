@@ -1,0 +1,23 @@
+What are the types of data available to you?
+I took a look at the Actors List from the IMDB dataset (ftp://ftp.fu-berlin.de/pub/misc/movies/database/actors.list.gz). This dataset includes the actors name and then a list of appearances that they have made in either movies or television. The data includes the actor's name, movie/television show name and the year of the appearance.
+
+For data sets: how many records are in the data set?
+Using wc -l, I discovered that there are 13,638,281 lines in the actors.list. Each tv/movie appearance takes up a line, so presumably this number mostly represents appearances rather than actors.
+
+For API: what are the limits on fetching data? 
+Given that this list was available for download, the limits for fetching the data via an API did not apply.
+
+Provide an "interesting" record, explain its properties and why it is interesting
+Using 'less' to browse the data,  the first Actor I discovered, who had a larger number of TV/Movie appearances, was 50 Cent. It was interesting to see all of the appearances that 50 Cent has made that I had no clue about.
+
+50 Cent                 101 Sexiest Celebrity Bodies (2005) (TV)  (archive footage)  [Himself - Place #28]
+                        13 (2010)  (as Curtis Jackson)  [Jimmy]  <38>
+                        2003 MTV Movie Awards (2003) (TV)  [Himself - Performer]
+                        2003 Radio Music Awards (2003) (TV)  [Himself]
+                        2009 American Music Awards (2009) (TV)  [Himself - Performer]
+                        3rd Annual BET Awards (2003) (TV)  [Himself]
+                        50 Cent: Blood on the Sand (2009) (VG)  [Himself]
+			...
+
+What are 3 questions you could answer using your data?
+After browsing some of the data, I started to wonder if it would be possible to chart out the average length of an actor's career by looking at the year of the first TV/Movie appearance and the actor's most recent appearance. I think that it might also be interesting to find out the average number of TV/Movie appearances an actor makes in their career. Lastly, it might interesting to identify actors who have had large breaks in between their TV/Movie appearances.
