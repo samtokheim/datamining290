@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+  <head>
+	<title>Sam Tokheim's Data Visualization</title>
+	<script type="text/javascript" src="http://d3js.org/d3.v2.min.js?2.10.0"></script>
+	<style type="text/css">
+		path {
+		    stroke: blue;
+		    fill: none;
+		}
+
+		line {
+		    stroke: #000;
+		}
+	</style>
+	
+  </head>
+  <body>
+		<script type="text/javascript">
+		
+//Credits: I used this blog/tutorial for help in completing this assignment: 					  //http://www.janwillemtulp.com/2011/04/01/tutorial-line-chart-in-d3/
+		
+/* Notes on data extraction: 
+Step 1: I modified the mrjob python script that I am using for the final project to output the Jaccard similarities between business
+pairs based on the similarity of words in their review. The output file in github is '1.out' and the python script is called 'project_data.py'. Here is the python code:
+
+from mrjob.job import MRJob
+from mrjob.protocol import JSONValueProtocol
+from itertools import combinations_with_replacement, combinations
+import json
+import math
+
+class BusinessSim(MRJob):
+    INPUT_PROTOCOL = JSONValueProtocol
+
+    # go through each review - if the business category is in businesses dict, yield the business_id and the word.
+    def get_words(self, _, record):
+        #record = json.loads(record)
+        if record['type'] == 'review':
+            words = record['text'].split()
+            for word in words:
+                yield record['business_id'], word
+
+    # create word set for each business_id
+    def get_word_set(self, business_id, words):
+        words_list = set(words)
+        yield business_id, list(words_list)
+
+
+    # combine both inputs into output value     
+    def combine_review_words(self, business_id, review_words):
+        yield 'foo', [business_id, review_words]
+
+    # compare word lists for each business       
+    def compare_businesses(self, _, business_reviews):
+
+        for biz1, biz2 in combinations(business_reviews, 2):
+
+            all_words = (set(biz1[1] + biz2[1]))
+            jaccard_denom = len(all_words)
+
+            common_words = (set(biz1[1]) & set(biz2[1]))
+            jaccard_numer = len(common_words)
+
+            jaccard_coefficient = float(jaccard_numer) / jaccard_denom
+
+            yield 'foo', jaccard_coefficient
+
+
+    def steps(self):
+
+        return [self.mr(mapper=self.get_words, reducer=self.get_word_set),
+                self.mr(mapper=self.combine_review_words, reducer=self.compare_businesses)]
+
+if __name__ == '__main__':
+        BusinessSim.run()
+
+Step 2: I created a python script to truncate the results to only 200 records, sorted the list in descending order and format the results into a comma-separated list which I could copy and paste as 'values' data into my d3.html document. Here's a copy of the python script that I used. The output file in github is called '2.out' and the python file is 'd3.py'
+
+import csv
+
+with open('1.out', 'rU') as d:
+        reader = csv.reader(d)
+        data = []
+        for row in reader:
+                r = row[0].split('\t')
+                data.append(r[1])
+        data = sorted(data, reverse=True)
+        data_string = ','.join(data[0:200])
+        print data_string
+
+end notes */
+
+//A sample of Jaccard coefficients of businesses based on the similarity of the words in their Yelp reviews.
+var data=[0.18232044198895028,0.17142857142857143,0.16417910447761194,0.16371681415929204,0.16363636363636364,0.16129032258064516,0.15942028985507245,0.1542056074766355,0.1541095890410959,0.15306122448979592,0.1529745042492918,0.1523809523809524,0.15178571428571427,0.15151515151515152,0.15121951219512195,0.1509433962264151,0.15083798882681565,0.15079365079365079,0.1507537688442211,0.1506849315068493,0.15057915057915058,0.15037593984962405,0.14912280701754385,0.14836795252225518,0.14772727272727273,0.14759036144578314,0.14736842105263157,0.147239263803681,0.14720812182741116,0.14634146341463414,0.145985401459854,0.1452513966480447,0.14521452145214522,0.14511873350923482,0.1449814126394052,0.14492753623188406,0.14411764705882352,0.1440677966101695,0.14358974358974358,0.14349775784753363,0.14285714285714285,0.14285714285714285,0.14285714285714285,0.14285714285714285,0.14285714285714285,0.14210526315789473,0.1414141414141414,0.14107883817427386,0.1400560224089636,0.1394422310756972,0.13934426229508196,0.13924050632911392,0.13924050632911392,0.13903743315508021,0.13898305084745763,0.1388888888888889,0.1388888888888889,0.13855421686746988,0.13846153846153847,0.1380952380952381,0.13805970149253732,0.13793103448275862,0.13765182186234817,0.1375,0.13725490196078433,0.13692946058091288,0.13653136531365315,0.13618677042801555,0.13592233009708737,0.1357142857142857,0.1357142857142857,0.13559322033898305,0.13559322033898305,0.13551401869158877,0.13513513513513514,0.13513513513513514,0.13513513513513514,0.13513513513513514,0.1350210970464135,0.13496932515337423,0.13496932515337423,0.13488372093023257,0.1346153846153846,0.1346153846153846,0.1346153846153846,0.1346153846153846,0.13438735177865613,0.13402061855670103,0.13385826771653545,0.13368983957219252,0.13357400722021662,0.13333333333333333,0.13333333333333333,0.13333333333333333,0.13333333333333333,0.13333333333333333,0.13304721030042918,0.13297872340425532,0.13286713286713286,0.13286713286713286,0.1328125,0.13278008298755187,0.13274336283185842,0.13249211356466878,0.13245033112582782,0.13245033112582782,0.1323529411764706,0.1320754716981132,0.132,0.13191489361702127,0.13191489361702127,0.13186813186813187,0.13186813186813187,0.13178294573643412,0.13157894736842105,0.1314878892733564,0.13141025641025642,0.13135593220338984,0.13131313131313133,0.13122171945701358,0.13122171945701358,0.13114754098360656,0.13114754098360656,0.13100436681222707,0.13099041533546327,0.1308411214953271,0.13071895424836602,0.1306122448979592,0.13059701492537312,0.13059701492537312,0.13043478260869565,0.13043478260869565,0.13043478260869565,0.13026819923371646,0.13023255813953488,0.13004484304932734,0.13,0.12987012987012986,0.12987012987012986,0.12987012987012986,0.1297709923664122,0.1297709923664122,0.1297709923664122,0.1297071129707113,0.12968299711815562,0.12962962962962962,0.12955465587044535,0.12941176470588237,0.12941176470588237,0.1292517006802721,0.1292517006802721,0.1292517006802721,0.1291866028708134,0.12903225806451613,0.12886597938144329,0.12886597938144329,0.12878787878787878,0.12871287128712872,0.12857142857142856,0.12852664576802508,0.1285140562248996,0.12834224598930483,0.12831858407079647,0.12828947368421054,0.1282051282051282,0.1282051282051282,0.1282051282051282,0.128125,0.12811387900355872,0.128099173553719,0.12804878048780488,0.12796208530805686,0.12790697674418605,0.12781954887218044,0.12777777777777777,0.12773722627737227,0.1276595744680851,0.1276595744680851,0.1276595744680851,0.1276595744680851,0.1276595744680851,0.12751677852348994,0.12749003984063745,0.12745098039215685,0.12745098039215685,0.12734082397003746,0.12734082397003746,0.12727272727272726,0.12727272727272726,0.12727272727272726,0.12716763005780346,0.12704918032786885,0.12686567164179105,0.12686567164179105,0.12681159420289856,0.1267605633802817,0.1267605633802817,0.12658227848101267,0.12658227848101267,0.12654320987654322],
+			w = 400,
+			h = 200,
+			margin = 20,
+			y = d3.scale.linear().domain([0, d3.max(data)]).range([0 + margin, h - margin]),
+			x = d3.scale.linear().domain([0, data.length]).range([0 + margin, w - margin])
+
+			//Selects body of html document and appends an SVG element to it.
+			var vis = d3.select("body")
+			    .append("svg:svg")
+			    .attr("width", w)
+			    .attr("height", h)
+			
+			//Canvas for the visualization
+			var g = vis.append("svg:g")
+			    .attr("transform", "translate(0, 200)");
+			
+			//Function that takes in data an creates a D3 line
+			var line = d3.svg.line()
+			    .x(function(d,i) { return x(i); })
+			    .y(function(d) { return -1 * y(d); })
+			
+			//Appends a line to the panel using the data to draw the line
+			g.append("svg:path").attr("d", line(data));
+			
+			//Appends an x-axis line to the panel
+			g.append("svg:line")
+			    .attr("x1", x(0))
+			    .attr("y1", -1 * y(0))
+			    .attr("x2", x(w))
+			    .attr("y2", -1 * y(0))
+				
+			//Appends a y-axis line to the panel
+			g.append("svg:line")
+			    .attr("x1", x(0))
+			    .attr("y1", -1 * y(0))
+			    .attr("x2", x(0))
+			    .attr("y2", -1 * y(d3.max(data)))
+		</script>
+  </body>
+</html>
