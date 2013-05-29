@@ -1,0 +1,10 @@
+Total: 146858886.14
+Minimum: -30000.0 
+Maximum: 30000.0
+Mean: 168.685431492
+Median: 50.0
+1.67255343476e+11
+1.67255343476e+11
+Standard Deviation: None
+Candidates: 
+Min-max normalized values: [2500, 50, 250, 35, 8, 100, 19]

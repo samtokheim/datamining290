@@ -1,0 +1,36 @@
+Total: 146858886.14
+Minimum: -30000.0 
+Maximum: 30000.0
+Mean: 168.685431492
+Median: 50.0
+Standard Deviation: 438.307269815
+Pawlenty, Timothy CHANDRASOMA, PARAKRAMA DR.
+McCotter, Thaddeus G DUDA, MATTHEW
+Bachmann, Michele HILFER, RAYMOND
+Johnson, Gary Earl AYERS, ROBERT M.
+Gingrich, Newt OWENS, LUCILLE R. MS.
+Santorum, Rick WUSINICH, MARIA
+Huntsman, Jon HAYES, LYNNE K. MRS.
+Romney, Mitt SIMON, TONIA A. MS.
+Cain, Herman KARGES, WILLIAM
+Perry, Rick KAY, STEEVE
+Paul, Ron PAINTER, JOSEPH H MR.
+Roemer, Charles E. 'Buddy' III DENTON, JAMES
+Obama, Barack RAMOS, PAUL
+Stein, Jill WADDELL, W D
+Candidates: None
+Pawlenty, Timothy CHANDRASOMA, PARAKRAMA DR.
+McCotter, Thaddeus G DUDA, MATTHEW
+Bachmann, Michele HILFER, RAYMOND
+Johnson, Gary Earl AYERS, ROBERT M.
+Gingrich, Newt OWENS, LUCILLE R. MS.
+Santorum, Rick WUSINICH, MARIA
+Huntsman, Jon HAYES, LYNNE K. MRS.
+Romney, Mitt SIMON, TONIA A. MS.
+Cain, Herman KARGES, WILLIAM
+Perry, Rick KAY, STEEVE
+Paul, Ron PAINTER, JOSEPH H MR.
+Roemer, Charles E. 'Buddy' III DENTON, JAMES
+Obama, Barack RAMOS, PAUL
+Stein, Jill WADDELL, W D
+Min-max normalized values: [2500, 50, 250, 35, 8, 100, 19]

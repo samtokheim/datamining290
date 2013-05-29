@@ -1,0 +1,8 @@
+Total: 146858886.14
+Minimum: -30000.0 
+Maximum: 30000.0
+Mean: 168.685431492
+Median: 50.0
+Standard Deviation: 438.307269815
+Candidates: {'P20002556': 'Pawlenty, Timothy', 'P20003109': 'McCotter, Thaddeus G', 'P20002978': 'Bachmann, Michele', 'P20002671': 'Johnson, Gary Earl', 'P60003654': 'Gingrich, Newt', 'P20002721': 'Santorum, Rick', 'P20003067': 'Huntsman, Jon', 'P80003353': 'Romney, Mitt', 'P00003608': 'Cain, Herman', 'P20003281': 'Perry, Rick', 'P80000748': 'Paul, Ron', 'P20002523': "Roemer, Charles E. 'Buddy' III", 'P80003338': 'Obama, Barack', 'P20003984': 'Stein, Jill'}
+Min-max normalized values: [2500, 50, 250, 35, 8, 100, 19]
