@@ -1,0 +1,31 @@
+Huntsman, Jon 0.999999685809
+Huntsman, Jon 0.999740898816
+Cain, Herman 0.999996639372
+Cain, Herman 0.999737853167
+Gingrich, Newt 0.9999590384
+Gingrich, Newt 0.999700261927
+Obama, Barack 0.307863642164
+Obama, Barack 0.307783971032
+Johnson, Gary Earl 0.999999709798
+Johnson, Gary Earl 0.999740922799
+Stein, Jill 0.999999954356
+Stein, Jill 0.999741167294
+Romney, Mitt 0.984169587318
+Romney, Mitt 0.98391489695
+Bachmann, Michele 0.99999532702
+Bachmann, Michele 0.999736541155
+McCotter, Thaddeus G 0.999999999979
+McCotter, Thaddeus G 0.999741212905
+Santorum, Rick 0.999966897808
+Santorum, Rick 0.9997081193
+Roemer, Charles E. 'Buddy' III 0.999999395311
+Roemer, Charles E. 'Buddy' III 0.999740608394
+Perry, Rick 0.999997858621
+Perry, Rick 0.999739072101
+Paul, Ron 0.999527023636
+Paul, Ron 0.999268358962
+Pawlenty, Timothy 0.999999393523
+Pawlenty, Timothy 0.999740606606
+0.999741212926
+Gini Index: 0.291474153115
+Gini Index after split: 0
