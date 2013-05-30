@@ -1,1 +1,2 @@
 "MAX"	"<generator object <genexpr> at 0x23a90a0>"
+46.6219668178

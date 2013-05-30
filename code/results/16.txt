@@ -26,3 +26,5 @@ Median: 50.0
 Standard Deviation: None
 Candidates: 
 Min-max normalized values: [2500, 50, 250, 35, 8, 100, 19]
+[4.066458182574449, -88.4726466247223]
+[31.18603331719732, 61.1727490302448]
