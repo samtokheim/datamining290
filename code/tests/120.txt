@@ -1,0 +1,4 @@
+"Cafes"	"[2.0]"
+"Cafes"	"[4.0]"
+"Restaurants"	"[2.0]"
+"Restaurants"	"[4.0]"

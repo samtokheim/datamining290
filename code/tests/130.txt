@@ -1,0 +1,2 @@
+"Cafes"	3.0
+"Restaurants"	3.0

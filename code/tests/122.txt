@@ -1,0 +1,4 @@
+"Cafes"	4.0
+"Cafes"	5.0
+"Restaurants"	4.0
+"Restaurants"	5.0

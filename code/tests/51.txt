@@ -1,0 +1,204 @@
+["Mexican", "Restaurants"]	4.0
+[]	4.0
+["Tobacco Shops", "Shopping"]	4.0
+["Hair Salons", "Nail Salons", "Hair Removal", "Beauty and Spas"]	5.0
+["Flowers & Gifts", "Shopping", "Florists"]	4.0
+["Dentists", "Cosmetic Dentists", "Health and Medical"]	4.0
+["Cafes", "Restaurants"]	3.0
+["Tattoo", "Piercing", "Beauty and Spas"]	3.0
+["Photographers", "Event Planning & Services"]	5.0
+["Food", "Bakeries", "Delis", "American (New)", "Restaurants"]	4.0
+["Food", "Coffee & Tea", "Sandwiches", "Restaurants"]	4.0
+[]	2.5
+["African", "Ethiopian", "Restaurants"]	3.5
+["Chinese", "Restaurants"]	3.5
+["Hotels & Travel", "Event Planning & Services", "Hotels"]	2.5
+["Financial Services", "Automotive", "Towing", "Hotels & Travel", "Travel Services", "Insurance"]	3.5
+["Hair Salons", "Beauty and Spas"]	3.0
+["Arts & Entertainment"]	5.0
+["Restaurants"]	3.0
+["Restaurants"]	3.0
+["American (New)", "Restaurants"]	4.0
+["Home Services", "Real Estate", "Apartments"]	4.0
+["Bars", "American (New)", "Nightlife", "Lounges", "Restaurants"]	3.5
+["Active Life", "Yoga", "Fitness & Instruction"]	4.0
+["Food", "Coffee & Tea"]	4.5
+["Mass Media", "Radio Stations"]	2.5
+["Dermatologists", "Doctors", "Health and Medical"]	2.0
+["Sushi Bars", "Japanese", "Restaurants"]	3.5
+["Delis", "American (Traditional)", "Sandwiches", "Restaurants"]	3.5
+[]	4.0
+["Books, Mags, Music and Video", "Shopping", "Bookstores"]	2.0
+["Dermatologists", "Doctors", "Health and Medical", "Internal Medicine", "Family Practice"]	4.5
+["Fast Food", "Sandwiches", "Restaurants"]	3.5
+["Food", "Coffee & Tea"]	3.0
+[]	4.0
+["Fast Food", "Restaurants"]	2.0
+["Chicken Wings", "Restaurants"]	2.5
+["Local Services", "Printing Services"]	5.0
+["American (Traditional)", "Comfort Food", "Caterers", "Event Planning & Services", "Restaurants"]	2.5
+["Flowers & Gifts", "Shopping", "Florists"]	1.5
+["Breakfast & Brunch", "Diners", "Restaurants"]	3.0
+["Hotels & Travel", "Bed & Breakfast", "Event Planning & Services", "Hotels"]	3.5
+["Shopping", "Luggage"]	3.0
+["Women's Clothing", "Fashion", "Shopping"]	3.0
+["Active Life", "Tennis"]	4.0
+["Sporting Goods", "Bikes", "Shopping"]	4.5
+["Cafes", "Restaurants"]	3.0
+[]	4.5
+["Health and Medical", "Laser Eye Surgery/Lasik"]	5.0
+["Print Media", "Mass Media"]	4.0
+["Hotels & Travel", "Taxis", "Transportation"]	1.5
+["Food", "Convenience Stores"]	4.5
+["Indian", "Restaurants"]	4.0
+["Sporting Goods", "Bikes", "Shopping"]	4.5
+["Sandwiches", "Chicken Wings", "Restaurants"]	3.5
+["Music & DVDs", "Books, Mags, Music and Video", "Shopping"]	4.5
+["Food", "Bakeries", "Coffee & Tea", "French", "Restaurants"]	3.5
+["Vietnamese", "Malaysian", "Chinese", "Restaurants"]	3.5
+["Fashion", "Shopping", "Jewelry"]	5.0
+["Skin Care", "Day Spas", "Hair Salons", "Beauty and Spas"]	3.5
+["Breakfast & Brunch", "Restaurants"]	4.0
+["Health and Medical", "Dentists", "General Dentistry"]	5.0
+["Food", "Ice Cream & Frozen Yogurt"]	4.5
+["Food", "Donuts"]	3.5
+["Hobby Shops", "Shopping"]	4.0
+["Bars", "American (Traditional)", "Nightlife", "Restaurants"]	3.0
+["Art Supplies", "Shopping", "Arts & Crafts"]	5.0
+["Hotels & Travel", "Caterers", "Event Planning & Services", "Hotels"]	3.5
+["Electronics", "Shopping", "Appliances", "Home & Garden", "Mobile Phones"]	2.5
+["Hair Salons", "Beauty and Spas"]	3.0
+["Food", "Ice Cream & Frozen Yogurt"]	4.0
+["Bars", "Nightlife"]	3.5
+["Health and Medical", "Dentists", "General Dentistry"]	2.5
+["Home Services", "Real Estate", "Apartments"]	4.0
+["Museums", "Arts & Entertainment"]	4.5
+["Auto Repair", "Automotive", "Oil Change Stations"]	2.5
+["Active Life", "Parks"]	4.5
+["Fast Food", "Sandwiches", "Restaurants"]	2.5
+["Mexican", "Restaurants"]	4.0
+["Local Services", "Shoe Repair"]	5.0
+["Sporting Goods", "Bikes", "Shopping"]	5.0
+["Food", "Grocery"]	3.5
+["Nightlife", "Korean", "Bars", "Lounges", "Restaurants"]	4.0
+["Local Services", "Printing Services"]	2.5
+["Mass Media", "Radio Stations"]	2.5
+["Nightlife", "Pubs", "Irish", "Bars", "Restaurants"]	3.5
+["Middle Eastern", "Restaurants"]	4.0
+["Restaurants"]	4.5
+["Used, Vintage & Consignment", "Fashion", "Shopping"]	5.0
+["Music & DVDs", "Books, Mags, Music and Video", "Shopping"]	5.0
+["Italian", "Restaurants"]	4.0
+["Books, Mags, Music and Video", "Shopping", "Comic Books"]	3.5
+["Auto Repair", "Automotive", "Oil Change Stations"]	5.0
+["Food", "Bakeries", "Desserts"]	3.0
+["Colleges & Universities", "Hospitals", "Education", "Health and Medical"]	4.5
+["Sushi Bars", "Japanese", "Restaurants"]	4.0
+["Colleges & Universities", "Education"]	4.5
+["Electronics", "Musical Instruments & Teachers", "Shopping"]	3.5
+["Sushi Bars", "Japanese", "Restaurants"]	3.5
+["Nail Salons", "Beauty and Spas"]	3.5
+["Mexican", "Restaurants"]	3.0
+["Local Services", "Shipping Centers", "Printing Services"]	2.5
+["Fast Food", "Hot Dogs", "Food Stands", "Restaurants"]	4.0
+["Arts & Entertainment", "Art Galleries", "Shopping", "Jewelry"]	3.5
+["Food", "Bakeries", "Coffee & Tea"]	4.5
+["Adult Entertainment", "Nightlife"]	3.5
+["Education"]	4.5
+["Hair Salons", "Beauty and Spas"]	3.5
+["Restaurants", "Hot Dogs"]	2.0
+["Sandwiches", "Restaurants"]	2.5
+["Mattresses", "Shopping", "Home & Garden", "Office Equipment"]	3.0
+["American (New)", "Nightlife", "Dance Clubs", "Restaurants"]	4.5
+["Department Stores", "Fashion", "Shopping"]	4.5
+["Hotels & Travel", "Restaurants", "Event Planning & Services", "Hotels"]	2.5
+["Music & DVDs", "Books, Mags, Music and Video", "Musical Instruments & Teachers", "Shopping"]	3.0
+["Food", "Coffee & Tea"]	4.0
+["Burgers", "Fast Food", "Restaurants"]	3.5
+["Arts & Entertainment", "Cinema", "Performing Arts"]	5.0
+["Local Services", "Preschools", "Education", "Child Care & Day Care", "Elementary Schools"]	5.0
+["Pet Services", "Pet Boarding/Pet Sitting", "Pets"]	2.5
+["Fashion", "Shopping", "Accessories"]	4.0
+["Eyelash Service", "Beauty and Spas"]	4.5
+["Food", "Coffee & Tea"]	4.0
+["Tapas/Small Plates", "Bars", "Nightlife", "Lounges", "Restaurants"]	4.0
+["Pakistani", "Indian", "Restaurants"]	4.5
+["Shopping", "Home Services", "Internet Service Providers", "Mobile Phones", "Professional Services", "Electronics"]	3.5
+["Food", "Specialty Food", "Grocery", "Meat Shops"]	4.5
+["Mexican", "Restaurants"]	4.5
+["Restaurants"]	2.5
+["Food", "Beer, Wine & Spirits", "Bars", "Nightlife", "Wine Bars"]	5.0
+["Beauty and Spas", "Hair Removal", "Medical Spas", "Skin Care", "Health and Medical", "Laser Hair Removal"]	4.0
+["Tires", "Automotive"]	4.5
+["Musical Instruments & Teachers", "Shopping"]	5.0
+["Food", "Ice Cream & Frozen Yogurt"]	4.0
+["Doctors", "Health and Medical"]	5.0
+["Indian", "Food Stands", "Restaurants"]	4.0
+["Hotels & Travel", "Local Flavor", "Transportation"]	3.5
+["Home Services", "Real Estate", "Apartments"]	2.5
+["Doctors", "Health and Medical", "Obstetricians and Gynecologists"]	1.5
+["Hair Salons", "Beauty and Spas"]	4.0
+["Chinese", "Restaurants"]	3.5
+["Bars", "Sports Bars", "Nightlife"]	2.5
+["Investing", "Financial Services", "Shopping", "Antiques"]	5.0
+[]	5.0
+["Pakistani", "Indian", "Restaurants"]	3.5
+["Greek", "Mediterranean", "Restaurants"]	3.5
+["Shopping", "Home Services", "Internet Service Providers", "Mobile Phones", "Professional Services", "Electronics"]	3.0
+["Active Life", "Pilates", "Yoga", "Trainers", "Fitness & Instruction"]	5.0
+["Books, Mags, Music and Video", "Shopping", "Bookstores"]	3.5
+["Acupuncture", "Health and Medical"]	5.0
+["Arts & Crafts", "Shopping", "Fabric Stores", "Art Supplies"]	2.5
+["Women's Clothing", "Fashion", "Shopping", "Shoe Stores", "Accessories"]	4.0
+["Active Life", "Fitness & Instruction"]	5.0
+["Food", "Convenience Stores"]	4.0
+["Mexican", "Restaurants"]	3.0
+["Doctors", "Health and Medical", "Family Practice"]	1.0
+["Arts & Entertainment", "Art Galleries", "Shopping", "Jewelry"]	5.0
+["Lounges", "Arts & Entertainment", "Bars", "Nightlife", "Music Venues"]	3.5
+["Bars", "Hookah Bars", "Nightlife"]	3.5
+["American (Traditional)", "Restaurants"]	4.0
+["Seafood", "Steakhouses", "Restaurants"]	4.0
+["Home Services", "Real Estate", "Apartments"]	4.5
+["Home Services", "Real Estate", "Apartments"]	2.0
+["Italian", "Pizza", "Restaurants"]	4.5
+["Arts & Crafts", "Shopping", "Framing", "Photography Stores & Services"]	4.0
+["American (New)", "Restaurants"]	4.0
+["Home Cleaning", "Local Services", "Home Services", "Pest Control"]	3.0
+["Pakistani", "Indian", "Restaurants"]	3.5
+[]	3.0
+["Food", "Ice Cream & Frozen Yogurt"]	4.5
+["Vegetarian", "American (New)", "Restaurants"]	4.0
+["Bars", "Sports Bars", "Nightlife"]	1.5
+["Local Services", "Sewing & Alterations"]	4.5
+["Italian", "Fast Food", "Restaurants"]	2.5
+["Food", "Grocery"]	4.0
+["Local Services"]	5.0
+["Local Services", "Dry Cleaning & Laundry"]	2.5
+["American (New)", "Restaurants"]	3.0
+["Local Services", "Dry Cleaning & Laundry"]	3.5
+["Local Services", "Art Supplies", "Notaries", "Shopping", "Arts & Crafts"]	2.5
+["Doctors", "Ear Nose & Throat", "Health and Medical"]	5.0
+["Optometrists", "Health and Medical"]	5.0
+["Sandwiches", "Restaurants", "Event Planning & Services", "Caterers"]	3.5
+["Cafes", "Restaurants"]	5.0
+["Hotels & Travel", "Event Planning & Services", "Hotels"]	2.5
+["Italian", "Pizza", "Restaurants"]	4.5
+["Active Life", "Pilates", "Fitness & Instruction"]	5.0
+["Bars", "Nightlife"]	4.5
+["Hotels & Travel", "Taxis", "Airport Shuttles", "Limos", "Transportation"]	5.0
+["Food", "Home Services"]	4.5
+["Gluten-Free", "Asian Fusion", "Chinese", "Restaurants"]	3.0
+["Computers", "Shopping"]	3.0
+["Food", "Grocery"]	2.5
+["Active Life", "Rafting/Kayaking"]	2.5
+["Food", "Bakeries", "Pizza", "Restaurants"]	5.0
+["Home Services", "Real Estate", "Apartments"]	3.5
+["Keys & Locksmiths", "Home Services"]	5.0
+["Hotels & Travel", "Event Planning & Services", "Venues & Event Spaces", "Hotels"]	4.0
+["Active Life", "Parks"]	4.5
+["Women's Clothing", "Men's Clothing", "Fashion", "Shopping", "Jewelry"]	3.0
+["Security Systems", "Home Services"]	2.5
+["American (New)", "Mediterranean", "Restaurants"]	4.0
+["Bars", "Sports Bars", "Nightlife"]	3.0
+["Active Life", "Amateur Sports Teams"]	4.0

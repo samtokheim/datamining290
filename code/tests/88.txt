@@ -1,0 +1,2 @@
+"Cafes"	"5.0"
+"Restaurants"	"5.0"

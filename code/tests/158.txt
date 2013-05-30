@@ -1,0 +1,3 @@
+"Cafes"	4.0
+"Restaurants"	20.0
+"Restaurants"	4.0

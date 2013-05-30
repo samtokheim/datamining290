@@ -1,0 +1,2 @@
+"Cafes"	"<generator object <genexpr> at 0x2203f00>"
+"Restaurants"	"<generator object <genexpr> at 0x2203f50>"
